@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CreateClientView.qml</file>
+        <file>DashboardView.qml</file>
+        <file>EditClientView.qml</file>
+        <file>FindClientView.qml</file>
+        <file>SplashView.qml</file>
+        <file>About.qml</file>
+        <file>Login.qml</file>
+        <file>ClientList.qml</file>
+        <file>Desgin.qml</file>
+        <file>MouseTracking.qml</file>
+        <file>Cricle.qml</file>
+        <file>Sprite.qml</file>
+        <file>AddAnimation.qml</file>
+        <file>componentCreation.js</file>
+        <file>Network.qml</file>
+        <file>CameraEdit.qml</file>
+    </qresource>
+</RCC>
