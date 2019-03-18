@@ -20,7 +20,7 @@ Item {
 
     function getData() {
         var xmlhttp = new XMLHttpRequest();
-        var url = "https://hacker-news.firebaseio.com/v0/newstories.json";
+        var url = "https://www.metaweather.com/api/location/search/?query=india";
 
         xmlhttp.onreadystatechange=function() {
             if (xmlhttp.readyState === XMLHttpRequest.DONE && xmlhttp.status === 200) {
@@ -30,12 +30,11 @@ Item {
         xmlhttp.open("GET", url, true);
         xmlhttp.send();
     }
-
     function myFunction(response) {
-        var arr = JSON.parse(response);
-        console.log(arr)
+        var obj = JSON.parse(response);
+        console.log(obj["title"])
+        console.log("inside")
     }
-
     Button {
         anchors.bottom: parent.bottom
         width: parent.width

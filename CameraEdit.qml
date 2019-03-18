@@ -18,7 +18,6 @@ Item {
         }
         onRejected: {
             console.log("Canceled")
-
         }
     }
     Rectangle {
@@ -49,12 +48,12 @@ Item {
             anchors.right: parent.right
             anchors.bottom: parent.bottom
             anchors.bottomMargin: 10
-            height: 100
+            height: 30
             orientation: ListView.Horizontal
             spacing: 10
             model: imagePaths
             delegate: Image {
-                height: 100
+                height: 30
                 source: path
                 fillMode: Image.PreserveAspectFit
             }
@@ -73,9 +72,16 @@ Item {
             target: camera.imageCapture
             onImageSaved: {
                 imagePaths.append({"path": "file:///"+path})
+                console.log(path)
+                console.log("file:///"+path)
+                root.grabToImage(function(result) {
+                    result.saveToFile(path);
+
+                });
                 listView.positionViewAtEnd();
             }
         }
+    }
         Button {
             id:btnClear
             anchors.top:parent.top
@@ -84,7 +90,6 @@ Item {
             text: "Clear"
             onClicked: {
                 contentFrame.replace("qrc:/CameraEdit.qml")
-                //                contentFrame.replace("qrc:/ObjectTracking.qml")
             }
         }
         Button {
@@ -95,7 +100,6 @@ Item {
             text : "Save"
             onClicked: {
                 camera.imageCapture.capture();
-                console.log("btn clicked")
             }
         }
         Button {
@@ -121,7 +125,6 @@ Item {
                 id: linewidth
                 width: 50
                 text: "10"
-
             }
         }
         Row {
@@ -137,9 +140,6 @@ Item {
                 id: lineradius
                 width: 50
                 text: "5"
-
             }
         }
-
-    }
 }

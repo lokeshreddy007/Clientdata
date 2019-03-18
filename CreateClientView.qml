@@ -12,9 +12,9 @@ Item {
             onAccepted: {
                 console.log("Accepted: " + fileUrls)
                 imgpath.text = fileUrl
-                if (fileDialogOpenFiles.checked)
-                    for (var i = 0; i < fileUrls.length; ++i)
-                        Qt.openUrlExternally(fileUrls[i])
+//                if (fileDialogOpenFiles.checked)
+//                    for (var i = 0; i < fileUrls.length; ++i)
+//                        Qt.openUrlExternally(fileUrls[i])
             }
             onRejected: { console.log("Rejected") }
         }

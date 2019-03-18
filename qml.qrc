@@ -17,5 +17,7 @@
         <file>componentCreation.js</file>
         <file>Network.qml</file>
         <file>CameraEdit.qml</file>
+        <file>PhotoEditing.qml</file>
+        <file>UI.qml</file>
     </qresource>
 </RCC>

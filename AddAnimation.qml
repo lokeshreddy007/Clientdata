@@ -45,6 +45,11 @@ Item {
             text : "Save"
             onClicked: {
                 console.log("btn clicked")
+                var imageName = Math.floor((Math.random() * 100) + 1);
+                appWindow.grabToImage(function(result) {
+                    result.saveToFile("D:/learning/Clientdata/" +imageName +".png");
+
+                });
             }
         }
         Button {
