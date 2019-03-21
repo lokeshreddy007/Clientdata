@@ -1,8 +1,8 @@
 <RCC>
     <qresource prefix="/">
-        <file>Images/logo_qt.png</file>
-        <file>Images/code.jpg</file>
-        <file>Images/coding.jpg</file>
-        <file>Images/programmer.png</file>
+        <file>Resources/code.jpg</file>
+        <file>Resources/coding.jpg</file>
+        <file>Resources/logo_qt.png</file>
+        <file>Resources/programmer.png</file>
     </qresource>
 </RCC>

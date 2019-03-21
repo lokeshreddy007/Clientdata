@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
-        <file>data.txt</file>
+        <file>Resources/data.txt</file>
+        <file>Resources/componentCreation.js</file>
     </qresource>
 </RCC>

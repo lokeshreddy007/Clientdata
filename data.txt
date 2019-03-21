@@ -1,3 +1,0 @@
-Lok,Reddy,wefwef,joiji,ojiijiojzxcx,file:///D:/learning/build-ClientData-Desktop_Qt_5_11_2_MinGW_32bit-Debug/code.jpg
-Rajesh,Reddy,ra,km,klm,file:///D:/learning/build-ClientData-Desktop_Qt_5_11_2_MinGW_32bit-Debug/coding.jpg
-Kiran,jjnoiiokjiop,sfsdfsdf,ipk,iopkoipko,file:///D:/learning/build-ClientData-Desktop_Qt_5_11_2_MinGW_32bit-Debug/programmer.png

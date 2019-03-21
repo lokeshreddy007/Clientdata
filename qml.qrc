@@ -1,23 +1,32 @@
 <RCC>
     <qresource prefix="/">
+        <file>Framework/FWButtonNoText.qml</file>
+        <file>Framework/FWComboBox.qml</file>
+        <file>Framework/FWComboxDropDown.qml</file>
+        <file>Framework/FWDialog.qml</file>
+        <file>Framework/FWRadioButton.qml</file>
+        <file>Framework/FWScrollBar.qml</file>
+        <file>Framework/FWSlider.qml</file>
+        <file>Framework/FWTheme.qml</file>
+        <file>Views/About.qml</file>
+        <file>Views/AddAnimation.qml</file>
+        <file>Views/CameraEdit.qml</file>
+        <file>Views/ClientList.qml</file>
+        <file>Views/CreateClientView.qml</file>
+        <file>Views/Cricle.qml</file>
+        <file>Views/DashboardView.qml</file>
+        <file>Views/Desgin.qml</file>
+        <file>Views/EditClientView.qml</file>
+        <file>Views/FindClientView.qml</file>
+        <file>Views/Login.qml</file>
+        <file>Views/MouseTracking.qml</file>
+        <file>Views/Network.qml</file>
+        <file>Views/PhotoEditing.qml</file>
+        <file>Views/SplashView.qml</file>
+        <file>Views/Sprite.qml</file>
+        <file>Views/UI.qml</file>
         <file>main.qml</file>
-        <file>CreateClientView.qml</file>
-        <file>DashboardView.qml</file>
-        <file>EditClientView.qml</file>
-        <file>FindClientView.qml</file>
-        <file>SplashView.qml</file>
-        <file>About.qml</file>
-        <file>Login.qml</file>
-        <file>ClientList.qml</file>
-        <file>Desgin.qml</file>
-        <file>MouseTracking.qml</file>
-        <file>Cricle.qml</file>
-        <file>Sprite.qml</file>
-        <file>AddAnimation.qml</file>
-        <file>componentCreation.js</file>
-        <file>Network.qml</file>
-        <file>CameraEdit.qml</file>
-        <file>PhotoEditing.qml</file>
-        <file>UI.qml</file>
+        <file>Views/FWElements.qml</file>
+        <file>Framework/FWButton.qml</file>
     </qresource>
 </RCC>

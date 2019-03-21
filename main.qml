@@ -16,7 +16,7 @@ Window {
             right: parent.right
             left: navigationBar.right
         }
-        initialItem:"qrc:/SplashView.qml"
+        initialItem:"qrc:/Views/SplashView.qml"
     }
     Rectangle {
         id: navigationBar
@@ -29,19 +29,20 @@ Window {
 
         ListModel {
             id: classModel
-            ListElement {name: "DashBorad"; value: "qrc:/DashboardView.qml" }
-            ListElement {name: "Add Client"; value: "qrc:/CreateClientView.qml" }
-            ListElement {name: "Edit Client"; value: "qrc:/ClientList.qml" }
-            ListElement {name: "Find CLient"; value: "qrc:/FindClientView.qml" }
-            ListElement {name: "Login"; value: "qrc:/Login.qml" }
-            ListElement {name: "Design"; value: "qrc:/Desgin.qml" }
-            ListElement {name: "MouseTracking"; value: "qrc:/MouseTracking.qml" }
-            ListElement {name: "AddAnimation"; value: "qrc:/AddAnimation.qml" }
-            ListElement {name: "Network info"; value: "qrc:/Network.qml" }
-            ListElement {name: "Camera Edit"; value: "qrc:/CameraEdit.qml" }
-            ListElement {name: "Login"; value: "qrc:/About.qml" }
-            ListElement {name: "Photo Editing"; value: "qrc:/PhotoEditing.qml" }
-            ListElement {name: "UI"; value: "qrc:/UI.qml" }
+            ListElement {name: "FW Elements"; value: "qrc:/Views/FWElements.qml" }
+            ListElement {name: "DashBorad"; value: "qrc:/Views/DashboardView.qml" }
+            ListElement {name: "Add Client"; value: "qrc:/Views/CreateClientView.qml" }
+            ListElement {name: "Edit Client"; value: "qrc:/Views/ClientList.qml" }
+            ListElement {name: "Find CLient"; value: "qrc:/Views/FindClientView.qml" }
+            ListElement {name: "Login"; value: "qrc:/Views/Login.qml" }
+            ListElement {name: "Design"; value: "qrc:/Views/Desgin.qml" }
+            ListElement {name: "MouseTracking"; value: "qrc:/Views/MouseTracking.qml" }
+            ListElement {name: "AddAnimation"; value: "qrc:/Views/AddAnimation.qml" }
+            ListElement {name: "Network info"; value: "qrc:/Views/Network.qml" }
+            ListElement {name: "Camera Edit"; value: "qrc:/Views/CameraEdit.qml" }
+            ListElement {name: "Login"; value: "qrc:/Views/About.qml" }
+            ListElement {name: "Photo Editing"; value: "qrc:/Views/PhotoEditing.qml" }
+            ListElement {name: "UI"; value: "qrc:/Views/UI.qml" }
             ListElement {name: "Quit"; value: "Qt.quit()" }
         }
 
@@ -67,7 +68,7 @@ Window {
             delegate: myDelegate
         }
     }
-    Component.onCompleted: contentFrame.replace("qrc:/DashboardView.qml");
+    Component.onCompleted: contentFrame.replace("qrc:/Views/DashboardView.qml");
 }
 
 
