@@ -28,5 +28,6 @@
         <file>main.qml</file>
         <file>Views/FWElements.qml</file>
         <file>Framework/FWButton.qml</file>
+        <file>Views/NewFile.qml</file>
     </qresource>
 </RCC>
