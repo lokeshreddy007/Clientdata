@@ -6,7 +6,8 @@ Window {
     visible: true
     width: 800
     height: 560
-    title: qsTr("CM PRO")
+    title: qsTr("CM PRO") 
+    // StackView  to display the qml files
     StackView {
         id: contentFrame
         clip: true
