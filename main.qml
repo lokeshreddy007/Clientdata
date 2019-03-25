@@ -18,6 +18,7 @@ Window {
         }
         initialItem:"qrc:/Views/SplashView.qml"
     }
+    //  this is for navigation
     Rectangle {
         id: navigationBar
         width: 100
